@@ -48,9 +48,9 @@
 
 ## ninevolts.md :
 
-- [ ] Clarify that the 7-hour estimate is theoretical and that real-world runtime is much shorter due to voltage drop.
-- [ ] Explain why 9V batteries are inefficient: they're designed for high-impedance devices (smoke detectors, guitar pedals), not for circuits needing sustained current draw.
-- [ ] Suggest better alternatives (AA/AAA batteries in series, lithium-ion packs, or USB power).
+- [x] Clarify that the 7-hour estimate is theoretical and that real-world runtime is much shorter due to voltage drop.
+- [x] Explain why 9V batteries are inefficient: they're designed for high-impedance devices (smoke detectors, guitar pedals), not for circuits needing sustained current draw.
+- [x] Suggest better alternatives (AA/AAA batteries in series, lithium-ion packs, or USB power).
 
 ## logiclevelshifter.md :
 - [x] Remove duplicate home link and duplicate images
