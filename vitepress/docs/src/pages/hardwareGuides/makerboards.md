@@ -1,5 +1,7 @@
 # These are all the Maker Boards Arduino Makes {.text-[#e67e22] }
 
+Related pages: [Breadboard](./breadBoard.md), [Nine Volts](./nineVolts.md), [LED Resistors](./ledResistors.md).
+
 <div style="overflow-x: auto;">
 
 | Board Name                           | [Arduino MKR NB 1500](https://store.arduino.cc/products/arduino-mkr-nb-1500)                 | [Arduino MKR GSM 1400](https://store.arduino.cc/products/arduino-mkr-gsm-1400)    | [Arduino MKR1000 WIFI](https://store.arduino.cc/products/arduino-mkr-1000-wifi)  | [Arduino MKR ZERO](https://store.arduino.cc/products/arduino-mkr-zero)      | [Arduino MKR Vidor 4000](https://store.arduino.cc/products/arduino-mkr-vidor-4000) | [Arduino MKR WAN 1310](https://store.arduino.cc/products/arduino-mkr-wan-1310)     | [Arduino MKR WAN 1300(LoRa)](https://store.arduino.cc/products/arduino-mkr-wan-1300) | [Arduino MKR Vidor 4000](https://store.arduino.cc/products/arduino-mkr-vidor-4000) | [Arduino MKR WiFi 1010](https://store.arduino.cc/products/arduino-mkr-wifi-1010)  |
