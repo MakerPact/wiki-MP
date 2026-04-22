@@ -11,12 +11,10 @@
 - [ ] Include links to product pages or tutorials. crosslink entire site.
 - [ ] Add safety and PPE guidelines for labsupplys.md.
 ## combiningsketches.md :
-- [ ] Incomplete Sentences need to be fixed.
-- [ ] Vague References:
-  - "In some cases, the library file name may be in quotes, but this is a special case. In the case the library file is not in the normal location..." — Repetitive and unclear. Consolidate into one explanation.
-- [ ] Inconsistent Formatting
-
-  - The note "Pay Attention" appears twice with different styling expectations but no visual distinction.
+- [x] Incomplete Sentences need to be fixed.
+- [x] Vague References:
+  - Consolidated repetitive library file name explanations
+- [x] Inconsistent Formatting: Fixed 'Pay Attention' warnings to use consistent format
 - [ ] Add a summary checklist at the end:
 
     Copy library includes
