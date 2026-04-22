@@ -2,7 +2,7 @@
 
 [← Back to Home](../index.md)
 
-*This page is about combining multiple Arduino sketches into one*
+*This page is about combining multiple Arduino sketches into one* 
 
 This section describes how to identify and combine the different parts of Arduino sketches.
 
