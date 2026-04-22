@@ -1,5 +1,7 @@
 # Nine Volt Battery Basics { .text-[#e67e22] }
 
+Related pages: [Breadboard](./breadBoard.md), [LED Resistors](./ledResistors.md), [Multimeter](./multimeter.md).
+
 [← Back to Home](../index.md)
 
 Nine volt batteries are not a good choice for powering Arduino projects. Here's why:
