@@ -30,13 +30,7 @@ import { contributors } from '../static/contributors'
     size="medium"
     :members="contributors"
   />
-  <!-- <VPTeamPageSection>
-    <template #title>Contributors</template>
-    <template #lead>Those who have actively contributed to development.<br> Community Support</template>
-    <template #members>
-      <VPTeamMembers size="small" :members="contributors" />
-    </template>
-  </VPTeamPageSection> -->
+  
   <VPTeamPageSection>
     <template #title>Philosophy</template>
     <template #lead>
