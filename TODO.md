@@ -9,7 +9,7 @@
 - [x] Organize entries by price (lowest to highest) within each section
 - [x] Update all sections with proper labels and consistent formatting
 - [ ] Include links to product pages or tutorials. crosslink entire site.
-- [ ] Add safety and PPE guidelines.
+- [ ] Add safety and PPE guidelines for labsupplys.md.
 ## combiningsketches.md :
 - [ ] Incomplete Sentences need to be fixed.
 - [ ] Vague References:
@@ -37,7 +37,6 @@
 - [ ] Explain why delay() blocks interrupts (important for real applications) this is located near Build the Circuit heading.
   
 ## resistors.md :
-
 - [x] Add warning about exceeding forward voltage (reverse polarity can destroy an LED instantly).
 - [x] Mention resistor tolerances — standard resistors come in specific values (E12 or E24 series), so "next size larger" needs context.
 - [x] Add visual circuit diagram showing correct LED polarity (longer leg = positive).
