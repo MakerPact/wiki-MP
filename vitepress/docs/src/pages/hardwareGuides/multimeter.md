@@ -1,5 +1,7 @@
 # Multimeter Guide { .text-[#e67e22] }
 
+Related pages: [Breadboard](./breadBoard.md), [Nine Volts](./nineVolts.md), [LED Resistors](./ledResistors.md).
+
 ## What is a Multimeter?
 
 A **multimeter** is an essential tool for diagnosing circuits, testing connections, and troubleshooting electrical problems in Arduino and electronics projects. It allows you to measure:
