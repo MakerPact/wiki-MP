@@ -43,8 +43,8 @@
 
 ## multimeter.md :
 
-- [ ] Weak opening — "A multimeter is an essential tool for anyone working with electronics" is generic. Consider adding what makes it essential (e.g., "for diagnosing circuits, testing connections, and troubleshooting electrical problems").
-- [ ] Continuity explanation could be clearer — Consider: "If the multimeter beeps, the connection is complete (low resistance). If it doesn't beep, there's a break in the circuit."
+- [x] Weak opening — "A multimeter is an essential tool for anyone working with electronics" is generic. Consider adding what makes it essential (e.g., "for diagnosing circuits, testing connections, and troubleshooting electrical problems").
+- [x] Continuity explanation could be clearer — Consider: "If the multimeter beeps, the connection is complete (low resistance). If it doesn't beep, there's a break in the circuit."
 
 ## ninevolts.md :
 
