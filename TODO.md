@@ -38,11 +38,9 @@
   
 ## resistors.md :
 
-- [ ] Add a warning about exceeding forward voltage (reverse polarity can destroy an LED instantly).
-
-  Mention resistor tolerances — standard resistors come in specific values (E12 or E24 series), so "next size larger" needs context.
-  
-  Add a visual circuit diagram showing correct LED polarity (longer leg = positive).
+- [x] Add warning about exceeding forward voltage (reverse polarity can destroy an LED instantly).
+- [x] Mention resistor tolerances — standard resistors come in specific values (E12 or E24 series), so "next size larger" needs context.
+- [x] Add visual circuit diagram showing correct LED polarity (longer leg = positive).
 
 ## multimeter.md :
 
