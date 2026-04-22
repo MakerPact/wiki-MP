@@ -4,10 +4,7 @@
 
 *This page is about combining multiple Arduino sketches into one*
 
-*This page is about combining multiple Arduino sketches into one*
-The next part of this guide describes these sections.
-
-You can skip over this, then come back later and read it when your combined sketches don't work.
+This section describes how to identify and combine the different parts of Arduino sketches.
 
 ::: tip Sketch Sections
 Arduino basic sketches have sections
@@ -60,7 +57,7 @@ This section appears at the very top of the sketch.
 
 ::: info Special Cases
 
-There are some VERY special cases where a library may have a directive required before the library is loaded. This is very unusual but can happen. It will appear as a line of code that looks like this:
+There are some **very special cases** where a library requires a directive before it can be loaded. This is unusual but can happen - it appears as a `#define` statement before the include:
 
 ```cpp
 #define SOME_PIN 20
@@ -72,28 +69,19 @@ or
 #define SOME_VALUE
 ```
 
-before the include library statement
-
-:::
-
-The library load/include command is in the form of:
+The `#include` command loads libraries in the standard path:
 
 ```cpp
 #include <library file name>
 ```
 
-This will load and include the library if it is in the standard library path. If you load a library using the library manager, then the library will be in the correct place to be loaded with this statement.
-
-In some cases, the library file name may be in quotes, but this is a special case.
+If the library file is in your sketch's directory (not the standard library path), you can use quotes:
 
 ```cpp
 #include "library file name"
 ```
 
-In the case the library file is not in the normal location, then if it is in the same directory as the sketch it will use the quote format.
-
-::: info Special Case
-It may also have the full path to the file as well, but this is a special case.
+This is the only exception - normally, libraries should be in the standard library path and use angle brackets.
 :::
 
 ## Definition Section
@@ -107,9 +95,7 @@ Usually, a sketch will have constants here. These are variables that do not chan
 #define num_leds 20
 ```
 
-::: warning Pay Attention
-There are no semi colons after a define.
-:::
+> **Note**: `#define` statements are preprocessor directives and **do not** use semicolons.
 
 ## Global Variables
 
@@ -276,15 +262,13 @@ Next is the loop
 
 ![image](../../assets/images/CombiningSketches/sidebyside11.png)
 
-::: warning Pay Attention
-The contents of the loop are copied but **NOT** the `void loop()`
-:::
+> **Note**: Copy the contents of the `loop()` function but **NOT** the `void loop()` declaration or the final closing brace.
 
 ```cpp
 void loop() {
 ```
 
-Or the ending bracket
+Or the closing brace:
 
 ```cpp
 }
