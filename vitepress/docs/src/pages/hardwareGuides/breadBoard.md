@@ -1,5 +1,7 @@
 # How to Use a Breadboard { .text-[#e67e22] }
 
+Related pages: [Maker Boards](./makerboards.md), [Nine Volts](./nineVolts.md), [LED Resistors](./ledResistors.md).
+
 [← Back to Home](../index.md)
 
 ## Introduction
@@ -40,6 +42,8 @@ It is important to be aware that the power rails on either side are not connecte
 
 If you are working with a development board such as an Arduino, then you can simply pull power from the Arduino's female headers. The Arduino has multiple power and ground pins that you can connect to the power rails or other rows on a breadboard.
 
+See the [9V Battery Basics](./nineVolts.md) page for more information about powering your projects.
+
 ---
 
 ## Build the Circuit
@@ -59,7 +63,7 @@ Here is a small circuit on a breadboard. The red board you see is the Breadboard
 When the button is pushed, it connects the circuit to ground, completing the circuit and turning on the LED.
 
 ::: info NOTE
-Some larger breadboards will often isolate one half of the breadboard's power rails from the other half (think top and bottom half, not the sides). This is convenient if you have two different voltages with which you need to power your circuit, such as 3.3V and 5V. However, if you're unaware whether the power rails are or aren't isolated, it can often lead to issues while building your circuit. It's always a good idea to use a multimeter to check for the absence or presence of continuity in your breadboard's power rails.
+Some larger breadboards will often isolate one half of the breadboard's power rails from the other half (think top and bottom half, not the sides). This is convenient if you have two different voltages with which you need to power your circuit, such as 3.3V and 5V. However, if you're unaware whether the power rails are or aren't isolated, it can often lead to issues while building your circuit. It's always a good idea to use a [multimeter](./multimeter.md) to check for the absence or presence of continuity in your breadboard's power rails.
 
 ![A dual sided breadboard.](../../assets/images/breadboard/breadboard8.jpg "This shows a breadboard that is separated in the middle.")
 :::
