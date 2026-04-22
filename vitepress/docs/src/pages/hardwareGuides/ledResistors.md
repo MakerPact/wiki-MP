@@ -1,5 +1,7 @@
 # Resistors { .text-[#e67e22] }
 
+Related pages: [Breadboard](./breadBoard.md), [Nine Volts](./nineVolts.md), [Multimeter](./multimeter.md).
+
 [← Back to Home](../index.md)
 
 *This page is about resistors and LEDs*
