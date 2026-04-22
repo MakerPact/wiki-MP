@@ -27,10 +27,10 @@
     Verify the combined sketch compiles
 
 ## millisvsdelay.md :
-- [ ] Fix vague phrasing — "millis() is a counter that 'evolves by a clock'" is awkward. Better: "millis() is a counter driven by the system clock" or "millis() is a counter that increments with time."
-- [ ] Add code example showing millis() in practice (the page mentions BlinkWithoutDelay.ino but doesn't show it)
-- [ ] Clarify the overflow behavior of millis() (it resets after ~50 days)
-- [ ] Explain why delay() blocks interrupts (important for real applications)
+- [x] Fix vague phrasing — "millis() is a counter that 'evolves by a clock'" is awkward. Better: "millis() is a counter driven by the system clock" or "millis() is a counter that increments with time."
+- [x] Add code example showing millis() in practice (the page mentions BlinkWithoutDelay.ino but doesn't show it)
+- [x] Clarify the overflow behavior of millis() (it resets after ~50 days)
+- [x] Explain why delay() blocks interrupts (important for real applications)
 ## breadboards.md :
 - [ ] Add a code example showing millis() in practice (the page mentions BlinkWithoutDelay.ino but doesn't show it)
 - [ ] Clarify the overflow behavior of millis() (it resets after ~50 days)
