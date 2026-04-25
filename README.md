@@ -26,7 +26,7 @@ Welcome to the open source wiki for the Arduino Discord server. Here you can fin
 
 ...
 
-<sub>v5.45.0</sub>
+<sub>v26.17.1</sub>
 
 This is the source code for the [arduino wiki website](https://wiki.arduinodiscord.cc) documentation site. It is built using [VitePress](https://vitepress.vuejs.org/).
 
