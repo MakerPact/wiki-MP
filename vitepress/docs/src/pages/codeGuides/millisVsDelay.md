@@ -1,4 +1,11 @@
+---
+layout: page
+title: Millis vs Delay
+---
+
 # Millis vs Delay { .text-[#e67e22] }
+
+[← Back to Code Guides](./combiningSketches.md)
 
 ## `millis()` vs. `delay()`
 
@@ -82,7 +89,7 @@ Arduino board.
 *`millis()` returns a series of numbers, always increasing; one
 for each time it is called.*
 
- These 'serial numbers' are simply a count. They're a count
+These 'serial numbers' are simply a count. They're a count
 of the exact number of *milliseconds* of (real clock) time
 (approximately) since the Arduino was 'started' (powered on).
 
@@ -148,7 +155,7 @@ about the miles put on the car.
 
 `millis()` uses an unsigned 32-bit integer to store its value.
 After approximately **50 days** (4,294,967,295 milliseconds), the counter
-reachess **overflow** and resets to zero.
+reaches **overflow** and resets to zero.
 
 This is normal behavior and happens to all Arduino boards. To handle this
 correctly in your code:
@@ -179,7 +186,7 @@ There's no cheating.
 
 So `millis()` isn't a timer—it's a counter; but it counts
 …milliseconds, which happens to involve 'time'. Worse,
-only upgrades the count when some time has passed (otherwise it'd
+it only upgrades the count when some time has passed (otherwise it'd
 be like putting that drill on the odometer, to race it forward 30
 thousand miles in just a few minutes of 'bench' time).
 
@@ -204,8 +211,7 @@ keep track of how long the glue has been drying. 😉
 You walk back into the kitchen, to read the current time on
 the clock.
 
-You write it down, and head back to the…the makerspace you
-got there. 😉 *Your bench.*
+You write it down, and head back to the makerspace... your bench. 😉
 
 Now you have two times written down; one is from the first time
 you went into the kitchen; the second is the time you wrote down
@@ -269,3 +275,4 @@ could have this new feature:
 The MCU chip does have a peripheral inside it called the
 `counter-timer` which may be behind a lot of this. That's not
 the only way to do things, but is one available mechanism.
+
