@@ -1,6 +1,13 @@
+---
+title: Multimeter Guide
+description: A guide to using multimeters for diagnosing circuits and electronics projects.
+---
+
 # Multimeter Guide { .text-[#e67e22] }
 
 Related pages: [Breadboard](./breadBoard.md), [Nine Volts](./nineVolts.md), [LED Resistors](./ledResistors.md).
+
+[← Back to Home](../index.md)
 
 ## What is a Multimeter?
 
@@ -47,5 +54,6 @@ Use the continuity mode (usually indicated by a sound wave symbol) to test if a 
 - ~ = AC (alternating current)
 - — = DC (direct current)
 
-## More indepth info into Multimeters:
--  [Multi meter user guide](https://www.electronicshub.org/how-to-use-a-multimeter/)
+## More In-Depth Multimeter Information
+
+- [Multimeter User Guide](https://www.electronicshub.org/how-to-use-a-multimeter/)
