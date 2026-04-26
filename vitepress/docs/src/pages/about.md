@@ -23,7 +23,7 @@ import { contributors } from '../static/contributors'
       The development of the Arduino Wiki is guided by an international
       team, some of whom have chosen to be featured below.<br>
         <br>
-      Wiki developers are a group of people who are passionate about arduino  and all things electronic.
+      Wiki developers are a group of people who are passionate about Arduino and all things electronic.
     </template>
   </VPTeamPageTitle>
   <VPTeamMembers
@@ -34,7 +34,7 @@ import { contributors } from '../static/contributors'
   <VPTeamPageSection>
     <template #title>Philosophy</template>
     <template #lead>
-        The <a class="custom-links" href="/intro" target="_blank">guides</a> on this website include some of our teams own notes (not all of them are polished) that we disclose for other people to use.<br>
+        The <a class="custom-links" href="/gettingStarted/basicsOfProgramming" target="_blank">guides</a> on this website include some of our team's own notes (not all of them are polished) that we disclose for other people to use.<br>
         <br>
         Here, we hope you may find something useful to you.<br>
         <br>
